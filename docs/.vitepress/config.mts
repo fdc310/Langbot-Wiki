@@ -48,6 +48,10 @@ export default defineConfig({
                 items: [
                   { text: "Docker部署", link: "/zh/deploy/langbot/docker" },
                   {
+                    text: "1Panel面板部署",
+                    link: "/zh/deploy/langbot/one-click/1panel",
+                  },
+                  {
                     text: "宝塔面板部署",
                     link: "/zh/deploy/langbot/one-click/bt",
                   },
@@ -104,6 +108,10 @@ export default defineConfig({
                         text: "对外客服",
                         link: "/zh/deploy/platforms/wecom/wecomcs",
                       },
+                      {
+                        text: "智能机器人",
+                        link: "/zh/deploy/platforms/wecom/wecombot",
+                      }
                     ],
                   },
                   {
@@ -135,6 +143,7 @@ export default defineConfig({
                 items: [
                   { text: "Dify", link: "/zh/deploy/pipelines/dify" },
                   { text: "n8n", link: "/zh/deploy/pipelines/n8n" },
+                  { text: "Langflow", link: "/zh/deploy/pipelines/langflow" },
                 ],
               },
               {
@@ -185,6 +194,10 @@ export default defineConfig({
               {
                 text: "容器网络配置详解",
                 link: "/zh/workshop/network-details",
+              },
+              {
+                text: "接入来自胜算云的模型",
+                link: "/zh/workshop/shengsuanyun-integration"
               },
               {
                 text: "接入 PPIO API 的模型",
@@ -268,6 +281,10 @@ export default defineConfig({
                 items: [
                   { text: "Docker Deployment", link: "/en/deploy/langbot/docker" },
                   {
+                    text: "1Panel Deployment",
+                    link: "/en/deploy/langbot/one-click/1panel",
+                  },
+                  {
                     text: "aaPanel Deployment",
                     link: "/en/deploy/langbot/one-click/bt",
                   },
@@ -328,6 +345,10 @@ export default defineConfig({
                         text: "External Customer Service",
                         link: "/en/deploy/platforms/wecom/wecomcs",
                       },
+                      {
+                        text: "Intelligent Bot",
+                        link: "/en/deploy/platforms/wecom/wecombot",
+                      }
                     ],
                   },
                   { text: "WeChat Official Account", link: "/en/deploy/platforms/wxoa" },
@@ -344,6 +365,7 @@ export default defineConfig({
                 items: [
                   { text: "Dify", link: "/en/deploy/pipelines/dify" },
                   { text: "n8n", link: "/en/deploy/pipelines/n8n" },
+                  { text: "Langflow", link: "/en/deploy/pipelines/langflow" },
                 ],
               },
               {
